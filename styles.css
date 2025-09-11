@@ -1,0 +1,61 @@
+table, td, th{
+	border:1px solid black;
+	width: 100%;
+	background-color: #98DBF5;
+	padding: 5px;
+}
+
+body{
+	margin-left: 20%;
+	margin-right: 20%;
+	background-image: url("https://scitechdaily.com/images/Superfluid-Concept.gif");
+	background-size: 200px;
+}
+
+td{
+	text-align: left;
+	padding: 10px;
+	background-color: white;
+
+}
+th#title{
+	color: white;
+	background: #87CEEB;
+	background: linear-gradient(0deg, rgba(135, 206, 235, 1) 0%, rgba(184, 232, 255, 1) 100%);
+}
+
+h1{
+	font-size: 300%;
+}
+
+th{
+	color: white;
+	background-color: #87ceeb;
+}
+
+div.my_works,.Experience{
+	display: flex;
+	gap: 5px;
+}
+
+div{
+	text-align: center;
+}
+
+div#works,#exp{
+	border-style: solid;
+	border-width: 1px;
+	width: 50%;
+	padding: 10px;
+}
+
+img{
+
+	height: 80px;
+}
+
+table#back{
+	border-style: outset;
+	border-color: #87ceeb;
+	border-width: 6px;
+}
