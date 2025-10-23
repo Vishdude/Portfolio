@@ -54,8 +54,31 @@ img{
 	height: 80px;
 }
 
-table#back{
+table#table{
 	border-style: outset;
 	border-color: #87ceeb;
 	border-width: 6px;
+}
+
+button{
+	color: white;
+	background: #87CEEB;
+	border-style: outset;
+	border-color: #87ceeb;
+	border-width: 6px;
+	
+}
+
+button#back{
+	left: 0px;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between; 
+  	align-items: center;           
+  	width: 100%;
+}
+#heading{
+	font-size: 30px;
 }
